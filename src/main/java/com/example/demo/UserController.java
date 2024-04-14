@@ -8,6 +8,6 @@ public class UserController {
 
     @GetMapping("/user-api")
     public String welcomeUser() {
-        return "welcome to SDET from Mia Liu";
+        return "welcome to SDET from Mia";
     }
 }
